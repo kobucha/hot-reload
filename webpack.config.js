@@ -29,8 +29,9 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'public/javascripts'),
+      directory: path.join(__dirname, 'public'),
     },
+    host: "0.0.0.0",
     hot: true,
   },
   // ここまで
